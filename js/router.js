@@ -17,7 +17,6 @@ Todos.TodosIndexRoute = Ember.Route.extend({
     }
 });
 
-
 Todos.TodosActiveRoute = Ember.Route.extend({
     model: function(){
         return this.store.filter('todo', function(todo) {
